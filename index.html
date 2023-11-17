@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora sencilla</title>
+    <meta charset="UTF-8">
+    <style>
+        div{
+            display: flexbox;
+            text-align: center;
+        }
+    </style>
+   </head>
+<body>
+    <!-- <form id="Mi formulario" name="Operaciones " method="post"> -->
+        <div>
+
+            <label for="valor1">Numero 1 </label>
+            <input type="text" name="valor1" id ="valor1" placeholder="Escribe un numero" >
+            <button onclick ="limpiar()"> Limpiar campos</button>
+            
+            <br>
+            <br>
+            <label for="valor2">Numero 2</label>
+            <input type="text"name="valor2" id="valor2" placeholder="Escribe otro numero">
+            
+            <br>
+            <br>
+            
+            <button type="button" onclick="sumar()">Sumar</button>
+            <button type="button" onclick="restar()">restar</button>
+            <button type="button" onclick="multiplicar()">multiplicar</button>
+            <button type="button" onclick="dividir()">dividir</button>
+
+            
+            <button class="Click">Dame Click</button>
+            <input type= text>
+            <button>Agregar</button>
+            <textarea></textarea>
+            
+            <p> El resultado es : <span id="el-resultado" ></span>
+                
+                
+                <!-- </form> -->
+            </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
